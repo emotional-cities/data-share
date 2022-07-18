@@ -10,7 +10,7 @@ The repository is hosted on [Amazon Web Services (AWS)](https://aws.amazon.com/)
 ## Quick-start
 
 You can upload data to your S3 bucket folder, using a browser through the AWS console, or programatically using an application. Instructions for the two scenarios are provided bellow.
-For both cases, you will need to identify yourself by providing some security information (e.g.: credentials). If you do not have this information, please get in touch with EarthPulse through the [gitter channel](https://gitter.im/emotionalcities/community), or by email.
+For both cases, you will need to identify yourself by providing some security information (e.g.: credentials). If you do not have this information, please get in touch with ByteRoad through the [gitter channel](https://gitter.im/emotionalcities/community), or by email.
 
 ### Access Bucket using a Browser
 
@@ -18,7 +18,7 @@ Open the link to the relevant folder:
 
 https://s3.console.aws.amazon.com/s3/buckets/emotional-cities?region=eu-central-1&prefix=data/nrg/&showversions=false
 
-(**This is just an example. Please open the link provided to you.**)
+> **_NOTE:_**   This is just an example. Please find your link in the [Link List](#link-list) section.
 
 Choose the option `IAM User`, and proceed to the next screen.
 
@@ -78,3 +78,19 @@ Or, if you are using a profile, append the `--profile` flag:
 ```
 aws s3 sync . s3://emotional-cities/data/nrg --profile nrg 
 ```
+
+### Link List
+
+S3 links, per partner:
+
+| Partner | Link |
+|---|---|
+| CAMB | https://s3.console.aws.amazon.com/s3/buckets/emotional-cities?region=eu-central-1&prefix=data/camb/&showversions=false |  
+| CLIMA | https://s3.console.aws.amazon.com/s3/buckets/emotional-cities?region=eu-central-1&prefix=data/clima/&showversions=false |  
+| FMUL | https://s3.console.aws.amazon.com/s3/buckets/emotional-cities?region=eu-central-1&prefix=data/fmul/&showversions=false |  
+| IGOT | https://s3.console.aws.amazon.com/s3/buckets/emotional-cities?region=eu-central-1&prefix=data/igot/&showversions=false |  
+| MSU | https://s3.console.aws.amazon.com/s3/buckets/emotional-cities?region=eu-central-1&prefix=data/msu/&showversions=false |  
+| NRG | https://s3.console.aws.amazon.com/s3/buckets/emotional-cities?region=eu-central-1&prefix=data/nrg/&showversions=false |  
+| SLAB | https://s3.console.aws.amazon.com/s3/buckets/emotional-cities?region=eu-central-1&prefix=data/slab/&showversions=false |  
+| TT | https://s3.console.aws.amazon.com/s3/buckets/emotional-cities?region=eu-central-1&prefix=data/tt/&showversions=false |  
+| UTARTU | https://s3.console.aws.amazon.com/s3/buckets/emotional-cities?region=eu-central-1&prefix=data/utartu/&showversions=false |  
