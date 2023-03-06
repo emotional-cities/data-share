@@ -79,7 +79,7 @@ Or, if you are using a profile, append the `--profile` flag:
 aws s3 sync . s3://emotional-cities/data/nrg --profile nrg 
 ```
 
-### Link List
+### Bucket Link List
 
 S3 links, per partner:
 
@@ -94,3 +94,37 @@ S3 links, per partner:
 | SLAB | https://s3.console.aws.amazon.com/s3/buckets/emotional-cities?region=eu-central-1&prefix=data/slab/&showversions=false |  
 | TT | https://s3.console.aws.amazon.com/s3/buckets/emotional-cities?region=eu-central-1&prefix=data/tt/&showversions=false |  
 | UTARTU | https://s3.console.aws.amazon.com/s3/buckets/emotional-cities?region=eu-central-1&prefix=data/utartu/&showversions=false |  
+
+### Login Link List
+
+Login links, per partner:
+
+| Partner | Link |
+|---|---|
+| CAMB | https://152259135726.signin.aws.amazon.com/console |  
+| CLIMA | https://152259135726.signin.aws.amazon.com/console |  
+| FMUL | https://152259135726.signin.aws.amazon.com/console |  
+| IGOT | https://152259135726.signin.aws.amazon.com/console |  
+| MSU | https://152259135726.signin.aws.amazon.com/console |  
+| NRG | https://152259135726.signin.aws.amazon.com/console |  
+| SLAB | https://152259135726.signin.aws.amazon.com/console |  
+| TT | https://152259135726.signin.aws.amazon.com/console |  
+| UTARTU | https://152259135726.signin.aws.amazon.com/console |  
+
+## Troubleshooting
+
+*The AWS page shows me the option of `Root user` and `IAM user` - which one should I choose?*
+
+If you see this option, you are trying to login the wrong page. You should lokin using the link for your organization, which was sent by email. If you don't remember, you can search for it in [this](###login-link-list) list.
+
+*I cannot remember the credentials for my organization. How can I recover them?*
+
+If you can't find the email with your credentials, you should contact ByteRoad to get a safe link to view your password.
+
+*I am getting a `permission error`, when I try to access the S3 bucket*
+
+Make sure to access **directly** your S3 bucket, through the link assigned to your organization. If you cannot remember the link, you can search for it in [this](###bucket-link-list) list. Please note that you cannot navigate up in this folder, to access other folders.
+
+*I want to delete one file on the bucket, but I am getting a permission error*
+
+You only have permissions to upload and view files on your folder. If you want to remove any files, let ByteRoad know and we'll take care of it. In the meantime, just upload a new file
