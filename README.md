@@ -119,7 +119,7 @@ If you see this option, you are trying to login the wrong page. You should lokin
 
 *AWS is asking me for a credit card, in order to login. Is that normal?*
 
-No, that should not happened. Make sure to login, using the [link](###login-link-list) and credentials that were assigned to you.
+No, you don't need a credit card to login to your bucket. Make sure to login, using the [link](###login-link-list) and credentials that were assigned to your organization.
 
 *I cannot remember the credentials for my organization. How can I recover them?*
 
