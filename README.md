@@ -117,9 +117,9 @@ Login links, per partner:
 
 If you see this option, you are trying to login the wrong page. You should lokin using the link for your organization, which was sent by email. If you don't remember, you can search for it in [this](###login-link-list) list.
 
-*AWS is asking me for a credit account, in order to login*
+*AWS is asking me for a credit card, in order to login. Is that normal?*
 
-Make sure to login, using the [link](###login-link-list) and credentials that were assigned to you.
+No, that should not happened. Make sure to login, using the [link](###login-link-list) and credentials that were assigned to you.
 
 *I cannot remember the credentials for my organization. How can I recover them?*
 
