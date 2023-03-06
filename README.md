@@ -117,6 +117,10 @@ Login links, per partner:
 
 If you see this option, you are trying to login the wrong page. You should lokin using the link for your organization, which was sent by email. If you don't remember, you can search for it in [this](###login-link-list) list.
 
+*AWS is asking me for a credit account, in order to login*
+
+Make sure to login, using the [link](###login-link-list) and credentials that were assigned to you.
+
 *I cannot remember the credentials for my organization. How can I recover them?*
 
 If you can't find the email with your credentials, you should contact ByteRoad to get a safe link to view your password.
