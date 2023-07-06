@@ -94,22 +94,13 @@ S3 links, per partner:
 | SLAB | https://s3.console.aws.amazon.com/s3/buckets/emotional-cities?region=eu-central-1&prefix=data/slab/&showversions=false |  
 | TT | https://s3.console.aws.amazon.com/s3/buckets/emotional-cities?region=eu-central-1&prefix=data/tt/&showversions=false |  
 | UTARTU | https://s3.console.aws.amazon.com/s3/buckets/emotional-cities?region=eu-central-1&prefix=data/utartu/&showversions=false |  
+| DTU | https://s3.console.aws.amazon.com/s3/buckets/emotional-cities?region=eu-central-1&prefix=data/dtu/&showversions=false |  
 
-### Login Link List
+### Login Link
 
-Login links, per partner:
+Login link:
 
-| Partner | Link |
-|---|---|
-| CAMB | https://152259135726.signin.aws.amazon.com/console |  
-| CLIMA | https://152259135726.signin.aws.amazon.com/console |  
-| FMUL | https://152259135726.signin.aws.amazon.com/console |  
-| IGOT | https://152259135726.signin.aws.amazon.com/console |  
-| MSU | https://152259135726.signin.aws.amazon.com/console |  
-| NRG | https://152259135726.signin.aws.amazon.com/console |  
-| SLAB | https://152259135726.signin.aws.amazon.com/console |  
-| TT | https://152259135726.signin.aws.amazon.com/console |  
-| UTARTU | https://152259135726.signin.aws.amazon.com/console |  
+https://152259135726.signin.aws.amazon.com/console
 
 ## Troubleshooting
 
