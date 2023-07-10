@@ -4,7 +4,7 @@ This document provides instructions to share data, in the context of the [eMOTIO
 
 The objetive is to curate a data repository, with sample information which can be used for development purposes. **This is not intended to be a replacement for the Spatial Data Infrastructure, where the research data will be stored and shared!**
 
-## Important Information
+## Important Information ⚠️
 **Data should always be accompanied by metadata**. You should create one metadata record for each submited dataset, using either the metadata survey form or the equivalent spreadsheet. Please get in touch, if you are not sure how to access any of these.
 
 When you submit both data and metadata, please create an [issue](https://github.com/emotional-cities/data-share/issues/new/choose) on the issue tracker, letting us know you have added data.
