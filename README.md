@@ -7,7 +7,7 @@ The objetive is to curate a data repository, with sample information which can b
 ## Important Information ⚠️
 **Data should always be accompanied by metadata**. You should create one metadata record for each submited dataset, using either the metadata survey form or the equivalent spreadsheet. Please get in touch, if you are not sure how to access any of these.
 
-When you submit both data and metadata, please create an [issue](https://github.com/emotional-cities/data-share/issues/new/choose) on the issue tracker, letting us know you have added data.
+When you submit both data and metadata, please create an [issue](https://github.com/emotional-cities/data-share/issues/new/choose) on the issue tracker, letting us know you have added data. In alternative, you can just send us an email.
 
 The cutoff date for adding datasets is the **28th of every month**. Datasets added until 00:01:00 CEST of the 28th will be ingested on the following month. You will be notified on your issue, once the datasets are available.
 
