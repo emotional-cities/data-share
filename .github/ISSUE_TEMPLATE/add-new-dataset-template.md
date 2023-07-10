@@ -1,7 +1,7 @@
 ---
-name: Add new Dataset template
+name: Add new Dataset
 about: Add a new dataset to the SDI
-title: ''
+title: 'Title with a high level description of your datasets: example - "adding resulting datasets from the VR experiment on Lisbon, in November"'
 labels: ''
 assignees: ''
 
