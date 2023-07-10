@@ -1,8 +1,15 @@
 # README
 ## Objectives
-This document provides instructions to share data, in the context of the [eMOTIONAL Cities](https://cordis.europa.eu/project/id/945307) project.
+This document provides instructions to share data, in the context of the [eMOTIONAL Cities](https://cordis.europa.eu/project/id/945307) project. 
 
 The objetive is to curate a data repository, with sample information which can be used for development purposes. **This is not intended to be a replacement for the Spatial Data Infrastructure, where the research data will be stored and shared!**
+
+## Important Information
+**Data should always be accompanied by metadata**. You should create one metadata record for each submited dataset, using either the metadata survey form or the equivalent spreadsheet. Please get in touch, if you are not sure how to access any of these.
+
+When you submit both data and metadata, please create an [issue](https://github.com/emotional-cities/data-share/issues/new/choose) on the issue tracker, letting us know you have added data.
+
+The cutoff date for adding datasets is the **28th of every month**. Datasets added until 00:01:00 CEST of the 28th will be ingested on the following month. You will be notified on your issue, once the datasets are available.
 
 ## Technology
 The repository is hosted on [Amazon Web Services (AWS)](https://aws.amazon.com/), using the [Simple Storage Service (S3)](https://aws.amazon.com/s3/). It is secured using the [AWS Identity and Access Management (IAM)](https://aws.amazon.com/iam/).
@@ -101,6 +108,8 @@ S3 links, per partner:
 Login link:
 
 https://152259135726.signin.aws.amazon.com/console
+
+
 
 ## Troubleshooting
 
