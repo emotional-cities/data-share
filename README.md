@@ -1,13 +1,21 @@
 # README
+
 ## Objectives
-This document provides instructions to share data, in the context of the [eMOTIONAL Cities](https://cordis.europa.eu/project/id/945307) project. 
+This document provides instructions to load GIS datasets and their attachments into the SDI Data Lake, in the context of the [eMOTIONAL Cities](https://cordis.europa.eu/project/id/945307) project.
 
-The objetive is to curate a data repository, with sample information which can be used for development purposes. **This is not intended to be a replacement for the Spatial Data Infrastructure, where the research data will be stored and shared!**
+This document is addressed to project partners who are responsible for producing data within the project.
 
-## Important Information ⚠️
-**Data should always be accompanied by metadata**. You should create one metadata record for each submited dataset, using either the metadata survey form or the equivalent spreadsheet. Please get in touch, if you are not sure how to access any of these.
+## Uploading Your GIS Datasets
 
-When you submit both data and metadata, please create an [issue](https://github.com/emotional-cities/data-share/issues/new/choose) on the issue tracker, letting us know you have added data. In alternative, you can just send us an email.
+When adding your GIS datasets to our spatial data infrastructure, it's important to note the following:
+
+1. **Supported Formats**: We accept a variety of specific GIS dataset formats. This ensures compatibility and streamlines the integration process within our infrastructure. Please ensure your datasets conform to the [accepted formats](https://github.com/emotional-cities/byteroad-workshop/blob/master/data_formats.md) before attempting to upload.
+
+2. **Data Lake Storage**: Instead of working with a structured database, we utilize a data lake. This approach allows for more flexibility, permitting the uploading process to be as straightforward as copying your files over. Our data lake is hosted on Amazon Web Services (AWS) using the S3 Bucket service. Known for its scalability and reliability, S3 ensures that your data is stored securely and can be accessed swiftly when needed.
+
+3. **Data should always be accompanied by metadata**. You should create one metadata record for each submited dataset, using either the metadata survey form or the equivalent spreadsheet. Please get in touch, if you are not sure how to access any of these.
+
+After you submitted both data and metadata, please create an [issue](https://github.com/emotional-cities/data-share/issues/new/choose) on the issue tracker, letting us know you have added data. In alternative, you can just send us an email.
 
 The cutoff date for adding datasets is the **28th of every month**. Datasets added until 00:01:00 CEST of the 28th will be ingested on the following month. You will be notified on your issue, once the datasets are available.
 
@@ -32,15 +40,15 @@ https://s3.console.aws.amazon.com/s3/buckets/emotional-cities?region=eu-central-
 
 Choose the option `IAM User`, and proceed to the next screen.
 
-![AWS login](aws1.png)
+![AWS login](img/aws1.png)
 
 Use the `username` and `password` to login.
 
-![AWS login2](aws2.png)
+![AWS login2](img/aws2.png)
 
 Upload data through the user interface, using the `upload` button. You are able to create sub folders, if you like.
 
-![AWS upload](aws3.png)
+![AWS upload](img/aws3.png)
 
 ### Access Bucket using an application
 
