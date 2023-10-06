@@ -11,6 +11,9 @@ When you submit both data and metadata, please create an [issue](https://github.
 
 The cutoff date for adding datasets is the **28th of every month**. Datasets added until 00:01:00 CEST of the 28th will be ingested on the following month. You will be notified on your issue, once the datasets are available.
 
+### Note about Updates
+If you need to update a dataset, please also [create an issue](https://github.com/emotional-cities/data-share/issues/new?assignees=&labels=&projects=&template=update-existing-dataset.md&title=). Updating data, involves both uploading a dataset and deleting another. When you update a dataset, you should update the existing metadata record, changing only the relevant fields; at the very least, you should fill the field "updated" with the timestamp of the update. The easiest way to do that, is to ask for the excel spreadsheet with your metadata.
+
 ## Technology
 The repository is hosted on [Amazon Web Services (AWS)](https://aws.amazon.com/), using the [Simple Storage Service (S3)](https://aws.amazon.com/s3/). It is secured using the [AWS Identity and Access Management (IAM)](https://aws.amazon.com/iam/).
 
