@@ -13,7 +13,7 @@ When adding your GIS datasets to our spatial data infrastructure, it's important
 
 2. **Data Lake Storage**: Instead of working with a structured database, we utilize a data lake. This approach allows for more flexibility, permitting the uploading process to be as straightforward as copying your files over. Our data lake is hosted on Amazon Web Services (AWS) using the S3 Bucket service. Known for its scalability and reliability, S3 ensures that your data is stored securely and can be accessed swiftly when needed.
 
-3. **Data should always be accompanied by metadata**. You should create one metadata record for each submited dataset, using either the metadata survey form or the equivalent spreadsheet. Please get in touch, if you are not sure how to access any of these.
+3. **Data should always be accompanied by metadata**. You should create one metadata record for each submited dataset, using either the [metadata survey](https://forms.gle/xvXbzZbUSi41xFQ36) form or the equivalent spreadsheet (if you need it, please get in touch). Please get in touch, if you are not sure how to access any of these.
 
 After you submitted both data and metadata, please create an [issue](https://github.com/emotional-cities/data-share/issues/new/choose) on the issue tracker, letting us know you have added data. In alternative, you can just send us an email.
 
