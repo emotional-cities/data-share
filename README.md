@@ -36,7 +36,7 @@ Open the link to the relevant folder:
 
 https://s3.console.aws.amazon.com/s3/buckets/emotional-cities?region=eu-central-1&prefix=data/nrg/&showversions=false
 
-> **_NOTE:_**   This is just an example. Please find your link in the [Link List](#link-list) section.
+> **_NOTE:_**   This is just an example. Please find your link in the [Link List](#bucket-link-list) section.
 
 Choose the option `IAM User`, and proceed to the next screen.
 
